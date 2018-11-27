@@ -701,6 +701,56 @@
               }
             }
           },
+          "import": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": "36",
+                },
+                "chrome_android": {
+                  "version_added": "70"
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "edge_mobile": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "32 (but only when activating 'dom.webcomponents.enabled' preference in about:config"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "ie": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": "23"
+                },
+                "opera_android": {
+                  "version_added": "46"
+                },
+                "safari": {
+                  "version_added": false
+                },
+                "safari_ios": {
+                  "version_added": false
+                },
+                "samsunginternet_android": {
+                  "version_added": "4"
+                },
+                "webview_android": {
+                  "version_added": null
+                }
+              },
+              "status": {
+                "experimental": true,
+                "standard_track": false,
+                "deprecated": false
+              }
+            }
+          },
           "manifest": {
             "__compat": {
               "support": {
